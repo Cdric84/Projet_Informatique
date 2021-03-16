@@ -22,4 +22,4 @@ class Sudoku():
         n = self.n
         lc = n*(nc//3)
         cc = n*(nc%n)
-        return [self.grille[n*k+c] for k in range(n)]
+        return [self.grille[n*k+lc] for k in range(n)]
